@@ -1,0 +1,7 @@
+- clone/download folder project test
+- made db, name test
+- cd test
+- composer install
+- php artisan migrate
+- php artisan db:seed
+- I use my mailtrap account for testing sending email to company while add new employe, need some adjustment in .env folder for made it can send to real email/gmail
