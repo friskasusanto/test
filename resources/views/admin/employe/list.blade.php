@@ -26,7 +26,7 @@
                         <tr>
                             <td>{{++$key}}</td>
                             <td>{{$c->first_name}} {{$c->last_name}}</td>
-                            <td>{{$c->company->name}}</td>
+                            <td><a href="{{$c->company->website}}" target="blank">{{$c->company->name}}</a></td>
                             <td>{{$c->email}}</td>
                             <td>{{$c->phone}}</td>
                             <td>
