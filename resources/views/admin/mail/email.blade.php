@@ -7,10 +7,11 @@
     <h3>{{ $details['title'] }}</h3>
     <p>{{ $details['body'] }}</p>
     </br>
-    <p>{{ $details['full_name'] }}</p>
-    <p>{{ $details['email'] }}</p>
-    <p>{{ $details['phone'] }}</p>
-   
-    <p>Thank you</p>
+    <p>Full Name : {{ $details['full_name'] }}</p>
+    <p>Email : {{ $details['email'] }}</p>
+    <p>Phone : {{ $details['phone'] }}</p>
+    </br>
+    <p>Regards,</p>
+    <p>Admin GR Tech</p>
 </body>
 </html>
